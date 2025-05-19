@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <section class="start-screen ">
+            <img class="start-quiz-time" src="./images/quizTime.png" alt="Quiz time">
+            <button class="start-button">Start Now >>></button>
+            <p class="score show-score">Your Score: <span></span>/19</p>
+        </section>
+        <section class="quiz-screen show-quiz-screen">
+            <div class="quiz-header">
+                <img src="./images/quiztimestart.png" alt="Quiz time Start" class="quiztime-start">
+                <img src="images/muted.svg" alt="volume" id="volume-icon" class="volume" />
+            </div>
+            <div class="quiz-question-counter">
+                <p><span></span>/<span class="total-questions"></span></p>
+            </div>
+            <div class="quiz-question">
+                <p>Inside which HTML element do we put the JavaScript? </p>
+            </div>
+            <div class="quiz-timer ">
+                <p>00:<span>30</span></p>
+            </div>
+            <div class="quiz-answers-container">
+                <div class="answer option1">
+                    <span class="answer-text"></span>
+                    <div class="chosen-answer"></div>
+                    <div class="correct-icon"></div>
+                </div>
+                <div class="answer option2">
+                    <span class="answer-text"></span>
+                    <div class="chosen-answer"></div>
+                    <div class="correct-icon"></div>
+                </div>
+                <div class="answer option3">
+                    <span class="answer-text"></span>
+                    <div class="chosen-answer"></div>
+                    <div class="correct-icon"></div>
+                </div>
+                <div class="answer option4">
+                    <span class="answer-text"></span>
+                    <div class="chosen-answer"></div>
+                    <div class="correct-icon"></div>
+                </div>
+            </div>
+            <div class="next">
+                <button class="reset-button">Reset</button>
+                <p>Next ></p>
+            </div>
+
+        </section>
+        <section class="result"></section>
+    </div>
+    <!-- <h1>Hello</h1> -->
+    <audio id="bg-music" loop>
+        <source src="audio/background.mp3" type="audio/mp3" />
+    </audio>
+</body>
+
+</html>
