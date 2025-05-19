@@ -273,4 +273,18 @@ border: 2px solid #35BD3A;
     width: 100%;
     
 }
+.start-quiz-time {
+    width: 90%;
+}
+.start-button {
+   
+
+    font-size: 1.3rem;
+   
+
+
+  
+    padding: 0.2rem 1rem;
+ 
+
 }
